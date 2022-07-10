@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <aside class="sidebar">
+            <div class="sidebar-options">
+                <button class="open-search-btn">Search for places</button>
+                <button class="geolocation">
+                    <i class="fa-solid fa-location-crosshairs fa-2x geolocation-icon"></i>
+                </button>
+            </div>
+            <div class="todays-weather-container">
+                <div class="todays-weather-icon-container">
+                    <img src="./assets/images/Shower.png" alt="" class="todays-weather-icon">
+                </div>
+                <p class="todays-weather-temp">15</p>
+                <span class="todays-weather-conditions">Shower</span>
+                <p class="date">Today - Fri, 5 Jun</p>
+                <span class="location">Helsinki</span>
+            </div>
+            <div class="search-modal">
+                <div class="search-container">
+                    <input id="search-input" type="text" placeholder="search location">
+                    <button class="search-btn">Search</button>
+                </div>
+                <div class="search-history">
+                    <div class="search-history-item">London</div>
+                    <div class="search-history-item">London</div>
+                    <div class="search-history-item">London</div>
+                </div>
+                <button class="close-modal-btn"><i class="fa-solid fa-xmark fa-2x close-modal-icon"></i></button>
+            </div>
+        </aside>
+        <main class="app-main">
+            <div class="weather-options">
+                <button class="weather-option">C</button>
+                <button class="weather-option">F</button>
+            </div>
+            <div class="weather-forecast">
+                <div class="weather-forecast-card">
+                    <p class="weather-forecast-date">Tomorrow</p>
+                    <img src="./assets/images/Snow.png" alt="weather icon" class="weather-forcast-icon">
+                    <div class="weather-forecast-temperatures">
+                        <span class="weather-forcast-temperature temperature-highest">16C</span>
+                        <span class="weather-forcast-temperature temperature-lowest">11C</span>
+                    </div>
+                </div>
+                <div class="weather-forecast-card">
+                    <p class="weather-forecast-date">Tomorrow</p>
+                    <img src="./assets/images/Sleet.png" alt="weather icon" class="weather-forcast-icon">
+                    <div class="weather-forecast-temperatures">
+                        <span class="weather-forcast-temperature temperature-highest">16C</span>
+                        <span class="weather-forcast-temperature temperature-lowest">11C</span>
+                    </div>
+                </div>
+                <div class="weather-forecast-card">
+                    <p class="weather-forecast-date">Tomorrow</p>
+                    <img src="./assets/images/Snow.png" alt="weather icon" class="weather-forcast-icon">
+                    <div class="weather-forecast-temperatures">
+                        <span class="weather-forcast-temperature temperature-highest">16C</span>
+                        <span class="weather-forcast-temperature temperature-lowest">11C</span>
+                    </div>
+                </div>
+                <div class="weather-forecast-card">
+                    <p class="weather-forecast-date">Tomorrow</p>
+                    <img src="./assets/images/Snow.png" alt="weather icon" class="weather-forcast-icon">
+                    <div class="weather-forecast-temperatures">
+                        <span class="weather-forcast-temperature temperature-highest">16C</span>
+                        <span class="weather-forcast-temperature temperature-lowest">11C</span>
+                    </div>
+                </div>
+                <div class="weather-forecast-card">
+                    <p class="weather-forecast-date">Tomorrow</p>
+                    <img src="./assets/images/Snow.png" alt="weather icon" class="weather-forcast-icon">
+                    <div class="weather-forecast-temperatures">
+                        <span class="weather-forcast-temperature temperature-highest">16C</span>
+                        <span class="weather-forcast-temperature temperature-lowest">11C</span>
+                    </div>
+                </div>
+            </div>
+            <div class="weather-hightlights">
+                <h2 class="weather-hightlights-title">Todays Highlights</h2>
+                <div class="hightlights-container">
+                    <div class="hightlights-card wind-status">
+                        <h3 class="hightlight-title">Wind status</h3>
+                        <span class="hightlight-value">7<span class="hightlight-messure">mph</span></span>
+                        <span class="hightlight-wind-direction">WSW</span>
+                    </div>
+                    <div class="hightlights-card humidity">
+                        <h3 class="hightlight-title">Humidity</h3>
+                        <span class="hightlight-value">84<span class="hightlight-messure">%</span></span>
+                        <div class="humidity-bar"></div>
+                    </div>
+                    <div class="hightlights-card visibility">
+                        <h3 class="hightlight-title">Visibility</h3>
+                        <span class="hightlight-value">6,4<span class="hightlight-messure">miles</span></span>
+                    </div>
+                    <div class="hightlights-card air-pressure">
+                        <h3 class="hightlight-title">Air Pressure</h3>
+                        <span class="hightlight-value">998<span class="hightlight-messure">mb</span></span>
+                    </div>
+                </div>  
+            </div>
+        </main>
+    </div>
+</body>
+</html>
